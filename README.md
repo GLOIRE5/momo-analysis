@@ -1,5 +1,6 @@
 # MoMo Insights Design Report
-
+## video of what we did :
+https://youtu.be/dErDJW4tWdE
 ## Approach
 This application processes MTN MoMo SMS data from an XML file in the `data` folder, categorizing transactions into 'Incoming Money', 'Bank Deposits', 'Withdrawals from Agents', and 'Other'. Data is cleaned, logged for errors, and stored in an SQLite database. A Flask backend serves APIs, while a frontend dashboard provides interactive analysis.
 
