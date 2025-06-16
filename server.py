@@ -90,7 +90,7 @@ if __name__ == '__main__':
     
     try:
         app.run(
-            debug=True, 
+            debug=False, 
             port=5000, 
             use_reloader=False,  # Disable reloader to prevent double output
             host='0.0.0.0'      # Make server publicly available
